@@ -16,13 +16,13 @@ Map<String, String> getMetaInfo(String mp3FilePath){
   var _genre = metatags[127];
 
   Map<String, String> metaInfo = {
-    "tag": latin1.decode(_tag),
-    "title": latin1.decode(_title),
-    "artist": latin1.decode(_artist),
-    "album": latin1.decode(_album),
-    "year": latin1.decode(_year),
-    "comment": latin1.decode(_comment),
-    "genre": _genre.toString()
+    "tag": latin1.decode(_tag).trim(),
+    "title": latin1.decode(_title).trim(),
+    "artist": latin1.decode(_artist).trim(),
+    "album": latin1.decode(_album).trim(),
+    "year": latin1.decode(_year).trim(),
+    "comment": ascii.decode(_comment).trim(),
+    "genre": _genre.toString().trim()
   };
 
   return metaInfo;
