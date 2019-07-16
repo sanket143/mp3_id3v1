@@ -1,8 +1,8 @@
 name: mp3_id3v1
 description: A new Flutter package project.
 version: 0.0.1
-author:
-homepage:
+author: Sanket Chaudhari
+homepage: https://github.com/sanket143/mp3_id3v1
 
 environment:
   sdk: ">=2.1.0 <3.0.0"
