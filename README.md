@@ -1,8 +1,8 @@
 # mp3_id3v1
 
-A new Flutter package project.
+A Dart package to retrieve metainfo of mp3 files.
 
-## Getting Started
+## Installation
 
 This project is a starting point for a Dart
 [package](https://flutter.dev/developing-packages/),
